@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2024-05-01 10:53:18
+/* Smarty version 3.1.30, created on 2024-05-02 17:26:09
   from "C:\xampp\htdocs\Project_shop_hoa-master\admin\smarty\templates\layouts\footer.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_663202fec20d43_48876852',
+  'unifunc' => 'content_6633b0914a2187_69289133',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '80cf574060731dd39209abcc78107b7e82a0f68a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\admin\\smarty\\templates\\layouts\\footer.tpl',
-      1 => 1714552390,
+      1 => 1714663285,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_663202fec20d43_48876852 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6633b0914a2187_69289133 (Smarty_Internal_Template $_smarty_tpl) {
 echo '<script'; ?>
  src="public/js/jquery.number.min.js"><?php echo '</script'; ?>
 >

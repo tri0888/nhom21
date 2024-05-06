@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2024-05-01 11:04:51
+/* Smarty version 3.1.30, created on 2024-05-03 12:14:42
   from "C:\xampp\htdocs\Project_shop_hoa-master\admin\views\thong_ke_theo_doanh_thu\v_theo_ngay.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_663205b3c79740_15943132',
+  'unifunc' => 'content_6634b9125fa687_11736030',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3fb2ae38ec79ecf6924e0a8600e0bd8546e899ab' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\admin\\views\\thong_ke_theo_doanh_thu\\v_theo_ngay.tpl',
-      1 => 1714552392,
+      1 => 1714663289,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_663205b3c79740_15943132 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6634b9125fa687_11736030 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <section id="section-fillup-1">
   <div class="row">

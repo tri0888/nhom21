@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2024-05-01 10:58:24
+/* Smarty version 3.1.30, created on 2024-05-02 17:26:08
   from "C:\xampp\htdocs\Project_shop_hoa-master\admin\views\hoa\v_modal_sua_hoa.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_66320430833b59_49323793',
+  'unifunc' => 'content_6633b090c6b7b8_20743393',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9cdedda746ecba88a5d3e0176400ce066af70c16' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\admin\\views\\hoa\\v_modal_sua_hoa.tpl',
-      1 => 1714552391,
+      1 => 1714663287,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_66320430833b59_49323793 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6633b090c6b7b8_20743393 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <div class="modal fade" id="edit<?php echo $_smarty_tpl->tpl_vars['hoa']->value->MaHoa;?>

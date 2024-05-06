@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2024-05-01 11:10:27
+/* Smarty version 3.1.30, created on 2024-05-02 18:57:11
   from "C:\xampp\htdocs\Project_shop_hoa-master\admin\views\v_loai_hoa.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_66320703c10310_81572049',
+  'unifunc' => 'content_6633c5e7a6d212_96356957',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f4c511fe6faae5059b5325d1fbea74b5fe90b7cb' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\admin\\views\\v_loai_hoa.tpl',
-      1 => 1714552391,
+      1 => 1714663286,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:views/loai_hoa/v_danh_sach_loai_hoa.tpl' => 1,
   ),
 ),false)) {
-function content_66320703c10310_81572049 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6633c5e7a6d212_96356957 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
       <!-- Example DataTables Card-->

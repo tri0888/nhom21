@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2024-05-01 10:58:12
+/* Smarty version 3.1.30, created on 2024-05-05 09:13:21
   from "C:\xampp\htdocs\Project_shop_hoa-master\admin\views\index\v_ds_hoa_don_chua_duyet.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6632042444dfa8_01088612',
+  'unifunc' => 'content_66373191250fb6_10935852',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fbcaf712861534ffb7beab48af23403b05f550d7' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\admin\\views\\index\\v_ds_hoa_don_chua_duyet.tpl',
-      1 => 1714552391,
+      1 => 1714816561,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6632042444dfa8_01088612 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66373191250fb6_10935852 (Smarty_Internal_Template $_smarty_tpl) {
 if (!is_callable('smarty_modifier_date_format')) require_once 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\admin\\smarty\\libs\\plugins\\modifier.date_format.php';
 ?>
  <div class="card-header">
@@ -65,7 +65,7 @@ foreach ($_from as $_smarty_tpl->tpl_vars['hoa_don']->value) {
                 <button type="button" onclick="updateAjax(<?php echo $_smarty_tpl->tpl_vars['hoa_don']->value->ma_hoa_don;?>
 )" class="btn btn-success">Xử lý</button>
                 <button type="button" onclick="deleteAjax(<?php echo $_smarty_tpl->tpl_vars['hoa_don']->value->ma_hoa_don;?>
-)" class="btn btn-danger">Xóa6</button>
+)" class="btn btn-danger">Xóa</button>
             </td>
           </tr>
           <?php

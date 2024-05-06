@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2024-05-01 10:42:55
+/* Smarty version 3.1.30, created on 2024-05-02 17:42:14
   from "C:\xampp\htdocs\Project_shop_hoa-master\views\hoa\v_danh_sach_hoa.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6632008f3012a0_01458843',
+  'unifunc' => 'content_6633b456f068c3_62529810',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '176000ae872ddca71c39640cdd3a475196a70995' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\views\\hoa\\v_danh_sach_hoa.tpl',
-      1 => 1714552411,
+      1 => 1714663340,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6632008f3012a0_01458843 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6633b456f068c3_62529810 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
     <div class="category-products">
         <ul class="products-grid row aos-all" id="transcroller-body">

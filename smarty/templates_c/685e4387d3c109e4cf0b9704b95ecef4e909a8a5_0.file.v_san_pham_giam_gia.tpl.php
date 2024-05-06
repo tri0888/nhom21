@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2024-05-01 10:37:28
+/* Smarty version 3.1.30, created on 2024-05-02 17:31:03
   from "C:\xampp\htdocs\Project_shop_hoa-master\views\trang_chu\v_san_pham_giam_gia.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6631ff482a5214_50049657',
+  'unifunc' => 'content_6633b1b7f05037_98307796',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '685e4387d3c109e4cf0b9704b95ecef4e909a8a5' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\views\\trang_chu\\v_san_pham_giam_gia.tpl',
-      1 => 1714552411,
+      1 => 1714663341,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6631ff482a5214_50049657 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6633b1b7f05037_98307796 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 custom-product custom1">
   <div class= "zvwqfjykbn magicproduct mage-custom">

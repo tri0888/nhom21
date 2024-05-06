@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2024-05-01 10:58:24
+/* Smarty version 3.1.30, created on 2024-05-02 17:26:08
   from "C:\xampp\htdocs\Project_shop_hoa-master\admin\views\hoa\v_danh_sach_hoa.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_66320430700269_55824369',
+  'unifunc' => 'content_6633b09091f5e2_25192403',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c5a92e2ac2d251d11a78a310683cb290316c6620' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\admin\\views\\hoa\\v_danh_sach_hoa.tpl',
-      1 => 1714552391,
+      1 => 1714663287,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:views/hoa/v_modal_sua_hoa.tpl' => 1,
   ),
 ),false)) {
-function content_66320430700269_55824369 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6633b09091f5e2_25192403 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
   <thead>
@@ -62,7 +62,7 @@ foreach ($_from as $_smarty_tpl->tpl_vars['hoa']->value) {
 " data-toggle="modal" data-target="#edit<?php echo $_smarty_tpl->tpl_vars['hoa']->value->MaHoa;?>
 " >Sửa</button>
           <button type="button" onclick="deleteAjax(<?php echo $_smarty_tpl->tpl_vars['hoa']->value->MaHoa;?>
-)" class="btn btn-danger">Xóa3</button>
+)" class="btn btn-danger">Xóa</button>
       </td>
     </tr>
 <?php $_smarty_tpl->_subTemplateRender("file:views/hoa/v_modal_sua_hoa.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, true);

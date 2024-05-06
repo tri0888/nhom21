@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2024-05-01 10:44:57
+/* Smarty version 3.1.30, created on 2024-05-05 11:05:36
   from "C:\xampp\htdocs\Project_shop_hoa-master\views\dang_ki\v_dang_ki.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6632010942cac8_49055221',
+  'unifunc' => 'content_66374be0ca4982_77921025',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'de4d24a482c7a2a6631fb26f744470b797f01b58' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\views\\dang_ki\\v_dang_ki.tpl',
-      1 => 1714552411,
+      1 => 1714663340,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6632010942cac8_49055221 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66374be0ca4982_77921025 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="register">
 		<div class="container">

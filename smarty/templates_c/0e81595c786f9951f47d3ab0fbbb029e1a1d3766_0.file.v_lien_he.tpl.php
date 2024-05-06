@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2024-05-01 12:03:09
+/* Smarty version 3.1.30, created on 2024-05-05 11:44:02
   from "C:\xampp\htdocs\Project_shop_hoa-master\views\v_lien_he.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6632135d390141_78341168',
+  'unifunc' => 'content_663754e2ad3bf2_11104670',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0e81595c786f9951f47d3ab0fbbb029e1a1d3766' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\views\\v_lien_he.tpl',
-      1 => 1714552410,
+      1 => 1714663340,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6632135d390141_78341168 (Smarty_Internal_Template $_smarty_tpl) {
+function content_663754e2ad3bf2_11104670 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="bsm_contact">
   <div class="col-md-12 col-sm-12 col-xs-12 bsm_title_section" style="margin-top: 30px">

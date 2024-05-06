@@ -13,7 +13,8 @@ class C_dang_ki
       $dia_chi=$_POST['diaChi'];
       $dien_thoai=$_POST['dienThoai'];
       $mat_khau=$_POST['matKhau'];
-      $kq=$m_khach_hang->Them_khach_hang($hoten, $phai,$email, $dia_chi, $dien_thoai,$mat_khau);
+      $permission=1;
+      $kq=$m_khach_hang->Them_khach_hang($hoten, $phai,$email, $dia_chi, $dien_thoai,$mat_khau,$permission);
       if($kq){
          $_SESSION['makh']=$m_khach_hang->Doc_khach_hang_theo_email_pass($email,$mat_khau)->ma_khach_hang;
          if(isset($_SESSION['giohang'])){

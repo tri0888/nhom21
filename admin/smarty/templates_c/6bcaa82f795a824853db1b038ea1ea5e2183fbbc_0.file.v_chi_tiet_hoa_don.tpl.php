@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2024-05-01 11:33:03
+/* Smarty version 3.1.30, created on 2024-05-02 18:46:49
   from "C:\xampp\htdocs\Project_shop_hoa-master\admin\views\v_chi_tiet_hoa_don.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_66320c4f907771_93652344',
+  'unifunc' => 'content_6633c37903e692_38911802',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6bcaa82f795a824853db1b038ea1ea5e2183fbbc' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\admin\\views\\v_chi_tiet_hoa_don.tpl',
-      1 => 1714552391,
+      1 => 1714663285,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_66320c4f907771_93652344 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6633c37903e692_38911802 (Smarty_Internal_Template $_smarty_tpl) {
 if (!is_callable('smarty_modifier_date_format')) require_once 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\admin\\smarty\\libs\\plugins\\modifier.date_format.php';
 ?>
 <div class="card mb-3">

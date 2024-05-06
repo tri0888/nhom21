@@ -60,7 +60,7 @@
                 <ul>
                  {if isset($smarty.session.hoTen)}
                     <li>
-                        Xin Chào2 {$smarty.session.hoTen}
+                        Xin Chào {$smarty.session.hoTen}
                     </li>
                     <li>
                         <a href="dang-xuat.html">Đăng Xuất</a>

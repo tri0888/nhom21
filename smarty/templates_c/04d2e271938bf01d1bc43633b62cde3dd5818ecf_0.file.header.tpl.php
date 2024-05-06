@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2024-05-01 10:37:27
+/* Smarty version 3.1.30, created on 2024-05-02 17:31:03
   from "C:\xampp\htdocs\Project_shop_hoa-master\smarty\templates\layouts\header.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6631ff47bc6761_90872693',
+  'unifunc' => 'content_6633b1b7568e39_76597537',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '04d2e271938bf01d1bc43633b62cde3dd5818ecf' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\smarty\\templates\\layouts\\header.tpl',
-      1 => 1714552406,
+      1 => 1714663331,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6631ff47bc6761_90872693 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6633b1b7568e39_76597537 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <header class="row">
     <div id="bsm_header_mobile">

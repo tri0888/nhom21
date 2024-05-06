@@ -6,6 +6,7 @@
       <th>Tổng đơn hàng</th>
       <th>Đơn hàng gần nhất</th>
       <th>Tổng chi tiêu</th>
+      <th>Khóa người dùng</th>
     </tr>
   </thead>
   <tbody>

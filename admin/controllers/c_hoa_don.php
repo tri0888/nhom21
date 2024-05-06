@@ -8,6 +8,7 @@ class C_hoa_don
         include("models/m_hoa_don.php");
         $m_hoa_don=new M_hoa_don();
         $doc_hoa_don=$m_hoa_don->xem_hoa_don_chua_duyet();
+        
         //Controller
         include("Smarty_admin.php");
         $smarty = new  Smarty_Admin();

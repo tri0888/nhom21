@@ -60,7 +60,7 @@ Examples:
 
 ATTENTION: The trailing slash is required.
 */
-$baseUrl = '/shop_hoa/public/';
+$baseUrl = '/Project_shop_hoa-master/public/';
 
 /*
 $baseDir : the path to the local directory (in the server) which points to the

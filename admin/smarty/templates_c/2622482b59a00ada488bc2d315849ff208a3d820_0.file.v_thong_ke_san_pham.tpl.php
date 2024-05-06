@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2024-05-01 11:08:14
+/* Smarty version 3.1.30, created on 2024-05-03 12:14:48
   from "C:\xampp\htdocs\Project_shop_hoa-master\admin\views\v_thong_ke_san_pham.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6632067e8b0672_13226334',
+  'unifunc' => 'content_6634b918c82f77_88555682',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2622482b59a00ada488bc2d315849ff208a3d820' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\admin\\views\\v_thong_ke_san_pham.tpl',
-      1 => 1714552391,
+      1 => 1714663287,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6632067e8b0672_13226334 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6634b918c82f77_88555682 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
   <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
     <thead>

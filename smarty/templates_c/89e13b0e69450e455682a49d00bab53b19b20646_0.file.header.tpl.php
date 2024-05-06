@@ -87,7 +87,7 @@ function content_5a73ca29a10203_89165311 (Smarty_Internal_Template $_smarty_tpl)
                 <ul>
                  <?php if (isset($_SESSION['hoTen'])) {?>
                     <li>
-                        Xin Chào4 <?php echo $_SESSION['hoTen'];?>
+                        Xin Chào <?php echo $_SESSION['hoTen'];?>
 
                     </li>
                     <li>

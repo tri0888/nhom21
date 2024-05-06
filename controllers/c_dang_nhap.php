@@ -10,6 +10,7 @@ class C_dang_nhap
             $email=$_POST['email'];
             $mat_khau=$_POST['mat_khau'];
             $kq=$m_khach_hang->Doc_khach_hang_theo_email_pass($email,$mat_khau);
+            
             if($kq){
                 $_SESSION['hoTen']=$kq->ten_khach_hang;
                 $_SESSION['makh']=$kq->ma_khach_hang;

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2024-05-01 10:37:27
+/* Smarty version 3.1.30, created on 2024-05-02 17:31:03
   from "C:\xampp\htdocs\Project_shop_hoa-master\views\trang_chu\v_slider.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6631ff47d776f1_38927440',
+  'unifunc' => 'content_6633b1b77cfdd3_26241991',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8ba0c2dceadb8bbb15b5edf8dede58ded4e7b2ec' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\views\\trang_chu\\v_slider.tpl',
-      1 => 1714552411,
+      1 => 1714663341,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6631ff47d776f1_38927440 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6633b1b77cfdd3_26241991 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
     <div class="wrapper-page">
         <div class="wrap-body container">

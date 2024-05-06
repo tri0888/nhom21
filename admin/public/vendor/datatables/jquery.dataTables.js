@@ -11238,7 +11238,7 @@
 				 *      } );
 				 *    } );
 				 */
-				"sSortAscending": ": activate to sort column ASC",
+				"sSortAscending": ": activate to sort column ascending",
 	
 				/**
 				 * ARIA label that is added to the table headers when the column may be

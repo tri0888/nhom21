@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2024-05-01 10:45:36
+/* Smarty version 3.1.30, created on 2024-05-05 12:43:18
   from "C:\xampp\htdocs\Project_shop_hoa-master\views\khach_hang\v_thong_tin.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_66320130686fe5_48346287',
+  'unifunc' => 'content_663762c636e902_86969527',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fd0b4a35b9a5b896d23ec9beb30c5f6ee66323f9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\views\\khach_hang\\v_thong_tin.tpl',
-      1 => 1714552411,
+      1 => 1714663341,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_66320130686fe5_48346287 (Smarty_Internal_Template $_smarty_tpl) {
+function content_663762c636e902_86969527 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div  class="col-md-6 product-left-block">
   <h3 class="canh_giua khach_hang thong_tin">Thông tin</h3>

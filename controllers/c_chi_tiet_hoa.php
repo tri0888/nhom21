@@ -67,6 +67,15 @@ class C_chi_tiet_hoa
         }
     }
     private function XoaNeuGiongID_MaKH($id, $ds_lich_su){
+        $ma_kh=$_SESSION['makh'];
+        include("models/m_lich_su.php");
+        $m_lich_su = new M_lich_su();
+        $ds_lich_su=$m_lich_su->xem_tat_ca($ma_kh);
+        $hoa_dau=reset($ds_lich_su);
+        if($hoa_dau->ma_hoa != $id){
+            $this->XoaNeuGiongID_MaKH($id, $ds_lich_su);
+            $m_lich_su->them($id,$ma_kh);
+        }
         foreach ($ds_lich_su as $item) {
             if($item->ma_hoa == $id){
                 $m_lich_su->xoa($id,$ma_kh);

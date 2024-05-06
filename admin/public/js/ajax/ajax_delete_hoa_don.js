@@ -1,5 +1,4 @@
 function deleteAjax(id){
-    alert('1');
     swal({
         title: "Bạn có đồng ý xóa hóa đơn này?",
         text: "Sau khi đã bị xóa, bạn sẽ không thể khôi phục hóa đơn này!",

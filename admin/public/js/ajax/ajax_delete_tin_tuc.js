@@ -1,5 +1,4 @@
 function deleteAjax(id){
-    alert('8');
     swal({
         title: "Bạn có đồng ý xóa",
         text: "Sau khi đã bị xóa, bạn sẽ không thể khôi phục tin tức này!",

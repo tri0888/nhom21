@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2024-05-01 11:03:36
+/* Smarty version 3.1.30, created on 2024-05-05 11:32:58
   from "C:\xampp\htdocs\Project_shop_hoa-master\admin\views\v_khach_hang.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_66320568665898_57500044',
+  'unifunc' => 'content_6637524a4e7443_02823489',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c634e53c587815ea1da6fa4f9e1753cb8c888335' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\admin\\views\\v_khach_hang.tpl',
-      1 => 1714552391,
+      1 => 1714901556,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:views/khach_hang/v_ds_khach_hang.tpl' => 1,
   ),
 ),false)) {
-function content_66320568665898_57500044 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6637524a4e7443_02823489 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
  <div class="card mb-3">
         <div class="card-header">

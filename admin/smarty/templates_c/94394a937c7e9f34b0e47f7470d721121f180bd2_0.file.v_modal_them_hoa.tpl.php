@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2024-05-01 10:58:24
+/* Smarty version 3.1.30, created on 2024-05-02 17:26:09
   from "C:\xampp\htdocs\Project_shop_hoa-master\admin\views\hoa\v_modal_them_hoa.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6632043098ae56_86617846',
+  'unifunc' => 'content_6633b091137987_36771809',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '94394a937c7e9f34b0e47f7470d721121f180bd2' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\admin\\views\\hoa\\v_modal_them_hoa.tpl',
-      1 => 1714552391,
+      1 => 1714663288,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6632043098ae56_86617846 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6633b091137987_36771809 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <div class="modal fade" id="add" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -65,10 +65,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
             <label for="recipient-name" class="form-control-label">Giá Khuyến Mãi:</label>
             <input type="text" class="form-control" id="gia_khuyen_mai" name="GiaKhuyenMai" autocomplete="off" required>
           </div>
-          <div class="form-group">
-            <label for="recipient-name" class="form-control-label">Số lượng:</label>
-            <input type="text" class="form-control" id="soluong" name="sl" autocomplete="off" required>
-          </div>
+          
           <div class="form-group">
             <label for="recipient-name" class="form-control-label">Thành phần:</label>
             <textarea class="form-control" type="text" name="thanh_phan" ></textarea>

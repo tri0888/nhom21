@@ -4,15 +4,57 @@ class M_hoa_don extends database
 {
     public function xem_hoa_don_chua_duyet()
     {
-        $sql="SELECT * FROM hoa_don inner join khach_hang on khach_hang.ma_khach_hang=hoa_don.ma_khach_hang where trang_thai='Chưa xử lý' ORDER BY tong_thanh_tien DESC";
+        if (!isset($_POST['start_date']) && !isset($_POST['end_date'])){
+        $sql="SELECT * FROM hoa_don inner join khach_hang on khach_hang.ma_khach_hang=hoa_don.ma_khach_hang 
+        where trang_thai='Chưa xử lý' 
+        ORDER BY ngay_dat DESC";
         $this->setQuery($sql);
-        return $this->loadAllRows();
+        return $this->loadAllRows();}
+
+        if (isset($_POST['start_date']) && isset($_POST['end_date'])){
+            $startDate = $_POST['start_date'];
+            $endDate = $_POST['end_date'];
+            $city = $_POST['city'];
+            $district = $_POST['district'];
+            $ward = $_POST['ward'];
+            $sql="SELECT * FROM hoa_don inner join khach_hang on khach_hang.ma_khach_hang=hoa_don.ma_khach_hang 
+            where trang_thai='Chưa xử lý' 
+            AND DATE(ngay_dat) BETWEEN '$startDate' AND '$endDate'
+            AND khach_hang.dia_chi like='$city' || 
+            khach_hang.dia_chi like='$district' || 
+            khach_hang.dia_chi like='$ward' || 
+            khach_hang.dia_chi like='HCM'
+            ORDER BY tong_thanh_tien DESC";
+            $this->setQuery($sql);
+            return $this->loadAllRows();
+        }
+
+        if (isset($_POST['city'])){
+            $city = $_POST['city'];
+            $district = $_POST['district'];
+            $ward = $_POST['ward'];
+            echo "<script>alert('$city');</script>";
+           
+        }
     }
     public function xem_hoa_don_da_duyet()
     {
-        $sql="SELECT * FROM hoa_don inner join khach_hang on khach_hang.ma_khach_hang=hoa_don.ma_khach_hang where trang_thai='Đã xử lý' ORDER BY tong_thanh_tien DESC";
-        $this->setQuery($sql);
-        return $this->loadAllRows();
+        if (!isset($_POST['start_date']) && !isset($_POST['end_date'])){
+            $sql="SELECT * FROM hoa_don inner join khach_hang on khach_hang.ma_khach_hang=hoa_don.ma_khach_hang 
+            where trang_thai='Đã xử lý' 
+            ORDER BY ngay_dat DESC";
+            $this->setQuery($sql);
+            return $this->loadAllRows();}
+            if (isset($_POST['start_date']) && isset($_POST['end_date'])){
+                $startDate = $_POST['start_date'];
+                $endDate = $_POST['end_date'];
+                $sql="SELECT * FROM hoa_don inner join khach_hang on khach_hang.ma_khach_hang=hoa_don.ma_khach_hang 
+                where trang_thai='Đã xử lý' 
+                AND DATE(ngay_dat) BETWEEN '$startDate' AND '$endDate'
+                ORDER BY tong_thanh_tien DESC";
+                $this->setQuery($sql);
+                return $this->loadAllRows();
+            }
     }
     public function xem_hoa_don_chua_xu_ly_hom_nay()
     {

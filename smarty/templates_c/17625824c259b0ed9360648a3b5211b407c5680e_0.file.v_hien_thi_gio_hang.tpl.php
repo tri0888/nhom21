@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2024-05-01 10:45:33
+/* Smarty version 3.1.30, created on 2024-05-05 12:43:14
   from "C:\xampp\htdocs\Project_shop_hoa-master\views\v_hien_thi_gio_hang.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6632012da7d9a5_87845609',
+  'unifunc' => 'content_663762c2541c56_46673891',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '17625824c259b0ed9360648a3b5211b407c5680e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\views\\v_hien_thi_gio_hang.tpl',
-      1 => 1714552410,
+      1 => 1714663339,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6632012da7d9a5_87845609 (Smarty_Internal_Template $_smarty_tpl) {
+function content_663762c2541c56_46673891 (Smarty_Internal_Template $_smarty_tpl) {
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_SESSION['giohang'], 'gh');
 if ($_from !== null) {
 foreach ($_from as $_smarty_tpl->tpl_vars['gh']->key => $_smarty_tpl->tpl_vars['gh']->value) {
