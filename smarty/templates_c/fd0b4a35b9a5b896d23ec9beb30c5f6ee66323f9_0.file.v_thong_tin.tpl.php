@@ -47,6 +47,18 @@ function content_663762c636e902_86969527 (Smarty_Internal_Template $_smarty_tpl)
   </li>
 
   <li>
+      <label>Thanh toán </label>
+      <div class="container">
+                <select name="" >
+                    <option>Trực tuyến</option>
+                    <option>Tiền mặt</option>                    
+                </select>
+        </div>
+      
+
+  </li>
+
+  <li>
     <input type="submit"  class="one khach_hang" value="Đặt hàng" name="luu"/>
   </li>
 </ul>

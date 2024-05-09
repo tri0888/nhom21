@@ -48,6 +48,33 @@
                         <div class="khung-tim-kiem-pc">
                             <form class="form-inline" method="post" autocomplete="off">
                                 <input name="search" id="search" class="form-control mr-sm-2" type="text" placeholder="Nhập hoa cần tìm kiếm">
+                                <form id="advancedSearchForm" class="form-inline" method="post" autocomplete="off">
+                       
+                            <div class="form-group">
+                                <label for="category">Phân loại:</label>
+                                <select name="category" id="category" class="form-control mr-sm-2">
+                                    <option value="">Tất cả</option>
+                                     <option value="category1">Hoa hộp</option>
+                                    <option value="category2">Hoa cắm giỏ </option>
+                                    <option value="category2">Hoa cắm bình </option>
+                                    <option value="category2">Hoa cầm tay </option>
+                                    <option value="category2">Hoa đại sảnh </option>
+                                    <!-- Thêm các tùy chọn phân loại khác nếu cần -->
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="minPrice">Giá từ:</label>
+                                <input name="minPrice" id="minPrice" class="form-control mr-sm-2" type="number" min="0">
+                            </div>
+                            <div class="form-group">
+                                <label for="maxPrice">Đến:</label>
+                                <input name="maxPrice" id="maxPrice" class="form-control mr-sm-2" type="number" min="0">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+                        </form>
+                        <div class="hien-thi-tim-kiem">
+                            <div id="result-tenHoa"></div>
+                        </div>
                             </form>
                             <div class="hien-thi-tim-kiem">
                                 <div id="result-tenHoa"></div>

@@ -1,7 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
+    
+</head>
+<body>
+  <script>
+    function voHieuHoaNguoiDung(inp) {
+      <?php 
+        $sql = "UPDATE khach_hang SET permission=0 WHERE ma_khach_hang=47";
+        ?>
+}
+  </script>
+</body>
+</html>
+<?php
+/* Smarty version 3.1.30, created on 2024-05-03 12:07:28
+  from "C:\xampp\htdocs\Project_shop_hoa-master\admin\views\khach_hang\v_ds_khach_hang.tpl" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_6634b76004b8a1_38202650',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '026dde24d343ae2a1cbda0c3b001b15e25bb02c0' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\admin\\views\\khach_hang\\v_ds_khach_hang.tpl',
+      1 => 1714730425,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_6634b76004b8a1_38202650 (Smarty_Internal_Template $_smarty_tpl) {
+
+?>
+<style>
         .switch {
           position: relative;
           display: inline-block;
@@ -61,42 +98,11 @@
             border-radius: 50%;
         }
     </style>
-</head>
-<body>
-  <script>
-    function voHieuHoaNguoiDung(inp) {
-      <?php 
-        $sql = "UPDATE khach_hang SET permission=0 WHERE ma_khach_hang=47";
-        ?>
-}
-  </script>
-</body>
-</html>
-<?php
-/* Smarty version 3.1.30, created on 2024-05-03 12:07:28
-  from "C:\xampp\htdocs\Project_shop_hoa-master\admin\views\khach_hang\v_ds_khach_hang.tpl" */
-
-/* @var Smarty_Internal_Template $_smarty_tpl */
-if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
-  'version' => '3.1.30',
-  'unifunc' => 'content_6634b76004b8a1_38202650',
-  'has_nocache_code' => false,
-  'file_dependency' => 
-  array (
-    '026dde24d343ae2a1cbda0c3b001b15e25bb02c0' => 
-    array (
-      0 => 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\admin\\views\\khach_hang\\v_ds_khach_hang.tpl',
-      1 => 1714730425,
-      2 => 'file',
-    ),
-  ),
-  'includes' => 
-  array (
-  ),
-),false)) {
-function content_6634b76004b8a1_38202650 (Smarty_Internal_Template $_smarty_tpl) {
-
-?>
+    <form method="POST" action="\Project_shop_hoa-master\admin\khach_hang.php">
+                Từ ngày: <input type="date" name="start_date1">
+                Đến ngày: <input type="date" name="end_date1">
+                <input type="submit" value="Lọc">
+            </form>
 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
   <thead>
     <tr>
@@ -128,7 +134,7 @@ foreach ($_from as $_smarty_tpl->tpl_vars['khach_hang']->value) {
  đ</td>
       <td>
       <label class="switch">
-          <input type="checkbox" value="<?php echo $_smarty_tpl->tpl_vars['khach_hang']->value->ma_khach_hang;?>" onclick="voHieuHoaNguoiDung(this.value)">
+          <input type="checkbox" value="<?php echo $_smarty_tpl->tpl_vars['khach_hang']->value->ma_khach_hang;?>" onclick="return confirm('Bạn có muốn ẩn người dùng')">
           <span class="slider round"></span>
       </label> 
 </td>
@@ -143,6 +149,3 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 </table>
 <?php }
 }
-
-
-

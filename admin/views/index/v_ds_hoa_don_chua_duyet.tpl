@@ -10,7 +10,6 @@
             <th>Ngày đặt</th>
             <th>Tổng tiền</th>
             <th>Trạng thái</th>
-            <th>Hành động</th>
           </tr>
         </thead>
         <tbody>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2024-05-05 09:13:21
+/* Smarty version 3.1.30, created on 2024-05-08 16:56:56
   from "C:\xampp\htdocs\Project_shop_hoa-master\admin\views\index\v_ds_hoa_don_chua_duyet.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_66373191250fb6_10935852',
+  'unifunc' => 'content_663b92b86d5002_41515737',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fbcaf712861534ffb7beab48af23403b05f550d7' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\admin\\views\\index\\v_ds_hoa_don_chua_duyet.tpl',
-      1 => 1714816561,
+      1 => 1715168464,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_66373191250fb6_10935852 (Smarty_Internal_Template $_smarty_tpl) {
+function content_663b92b86d5002_41515737 (Smarty_Internal_Template $_smarty_tpl) {
 if (!is_callable('smarty_modifier_date_format')) require_once 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\admin\\smarty\\libs\\plugins\\modifier.date_format.php';
 ?>
  <div class="card-header">
@@ -35,7 +35,6 @@ if (!is_callable('smarty_modifier_date_format')) require_once 'C:\\xampp\\htdocs
             <th>Ngày đặt</th>
             <th>Tổng tiền</th>
             <th>Trạng thái</th>
-            <th>Hành động</th>
           </tr>
         </thead>
         <tbody>

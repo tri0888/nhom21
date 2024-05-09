@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2024-05-05 16:33:17
+/* Smarty version 3.1.30, created on 2024-05-08 13:41:05
   from "C:\xampp\htdocs\Project_shop_hoa-master\admin\views\v_hoa_don.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_663798adb51d46_18693867',
+  'unifunc' => 'content_663b64d1eaa821_31300735',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f36b7b03e00894bb365fa3fa3a0af6c7d3518cdc' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\admin\\views\\v_hoa_don.tpl',
-      1 => 1714919594,
+      1 => 1715168460,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_663798adb51d46_18693867 (Smarty_Internal_Template $_smarty_tpl) {
+function content_663b64d1eaa821_31300735 (Smarty_Internal_Template $_smarty_tpl) {
 if (!is_callable('smarty_modifier_date_format')) require_once 'C:\\xampp\\htdocs\\Project_shop_hoa-master\\admin\\smarty\\libs\\plugins\\modifier.date_format.php';
 ?>
       <div class="card mb-3">
@@ -31,6 +31,7 @@ if (!is_callable('smarty_modifier_date_format')) require_once 'C:\\xampp\\htdocs
                 Đến ngày: <input type="date" name="end_date">
                 <input type="submit" value="Lọc">
             </form>
+            <form method="POST" action="\Project_shop_hoa-master\admin\hoa_don_chua_duyet.php">
             <div>
               <select class="form-select form-select-sm mb-3" id="city" aria-label=".form-select-sm">
               <option value="" selected>Chọn tỉnh thành</option>           
@@ -43,8 +44,10 @@ if (!is_callable('smarty_modifier_date_format')) require_once 'C:\\xampp\\htdocs
               <select class="form-select form-select-sm" id="ward" aria-label=".form-select-sm">
               <option value="" selected>Chọn phường xã</option>
               </select>
-              </div>    
-
+              <input type="submit" value="Lọc">
+              </div> 
+              
+              </form>
 
                   <?php echo '<script'; ?>
  src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"><?php echo '</script'; ?>
@@ -101,9 +104,9 @@ if (!is_callable('smarty_modifier_date_format')) require_once 'C:\\xampp\\htdocs
                   <th>Mã đơn hàng</th>
                   <th>Khách hàng</th>
                   <th>Ngày đặt</th>
+                  <th>Địa chỉ</th>
                   <th>Tổng tiền</th>
                   <th>Trạng thái</th>
-                  <th>Hành động</th>
                 </tr>
               </thead>
               <tbody>
